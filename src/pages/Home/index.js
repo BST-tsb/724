@@ -21,15 +21,7 @@ const Page = () => {
     "type": "conférence",
     "date": "2022-04-29T20:28:45.744Z",
     "title": "User&product MixUsers",
-    "cover": "/images/alexandre-pellaes-6vAjp0pscX0-unsplash.png",
-    "description": "Présentation des nouveaux usages UX.",
-    "nb_guesses": 900,
-    "periode": "14-15-16 Avril",
-    "prestations": [
-        "1 espace d’exposition",
-        "1 scéne principale",
-        "1 espace de restaurations"
-    ]
+    "cover": "/images/alexandre-pellaes-6vAjp0pscX0-unsplash.png"
 }
   const last = data && data.events && data.events.length ? data.events[data.events.length - 1] : eventDefault ;
   return <>
